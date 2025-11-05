@@ -1,0 +1,26 @@
+graph {
+node [image="icon_router.png" fixedsize="true" shape="none"];
+edge [fontsize="20pt" color="blue"];
+A [pos="10,5!"];
+B [pos="7,8!"];
+C [pos="7,4!"];
+D [pos="4,4!"];
+E [pos="5,1!"];
+F [pos="2,2!"];
+G [pos="1,6!"];
+H [pos="4,8!"];
+B--H [label="2"];
+B--G [label="4"];
+B--D [label="9"];
+B--C [label="2"];
+B--A [label="1"];
+H--G [label="14"];
+G--F [label="6"];
+F--D [label="3"];
+F--E [label="1"];
+E--D [label="1"];
+E--C [label="3"];
+C--A [label="4"];
+D--C [label="1"];
+D--G [label="1"];
+}
